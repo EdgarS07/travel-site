@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norway</title>
+    <link rel="stylesheet" href="./css/main.css">   
+    <link rel="stylesheet" href="./libs/dist/tiny-slider.css">   
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-slider">
+                <img class="header-slider__item" src="./img/bg-1.jpg" alt="bg 1">
+                <img class="header-slider__item" src="./img/bg-2.jpg" alt="bg 1">
+                <img class="header-slider__item" src="./img/bg-3.jpg" alt="bg 1">
+                <img class="header-slider__item" src="./img/bg-4.jpg" alt="bg 1">
+            </div>
+        
+
+           <!-- Управление слайдером -->
+           
+            <div class="header-slider-controls">
+
+                <div class="header-slider-controls__arrows">
+                    <button> <img id="sliderPrev" src="./img/icons/left.svg" alt=""></button> 
+                   <button><img id="sliderNext" src="./img/icons/right.svg" alt=""></button> 
+                </div>
+
+                <div class="header-slider-controls__count">
+                    <span class="header-slider-controls__count-current" id="sliderCurrent">01</span>
+                    / <span id="sliderTotal"> 04</span>
+                </div>
+
+            </div>
+
+            <!-- Контент в шапке -->
+            <div class="header__content">
+                <nav class="header-nav">
+
+                    <div class="logo">
+                        <img src="./img/logo/logo.png" alt="logo">
+                        <img class="logo-text" src="./img/logo/travelx.svg" alt="TRAVELx">
+                    </div>
+
+                    <ul class="nav">
+                        <li class="nav__item"><a href="#!" class="nav__link">Destinations</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">Activities</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="#!" class="nav__link">Contact</a></li>
+                    </ul>
+                    
+                    <button class="extra-nav-btn">
+                        <img src="./img/icons/nav-icon.svg" alt="">
+                    </button>
+
+                </nav>
+
+                <div class="header-title">
+                    <div class="header-title__small">EXPLORE</div>
+                    <h1 class="header-title__big">Norway</h1>
+
+
+                    <ul class="header-social">
+                        <li><a href="#!">
+                            <img src="./img/socials/facebook.svg" alt="">
+                        </a></li>
+                        <li><a href="#!">
+                            <img src="./img/socials/twitter.svg" alt="">
+                        </a></li>
+                        <li><a href="#!">
+                            <img src="./img/socials/instagram.svg" alt="">
+                        </a></li>
+                    </ul>
+                </div>
+                    
+                
+                <div class="header-tips">
+
+                    <a href="#!" class="tip">
+                        <span class="tip__title">Trondheim</span>
+                        <span class="tip__text">Plan a trip</span>
+                    </a>
+
+                    <a href="#!" class="tip">
+                        <span class="tip__title">Geirangerfjord</span>
+                        <span class="tip__text">Plan a trip</span>
+                    </a>
+
+                    <a href="#!" class="tip">
+                        <span class="tip__title">Lofoten</span>
+                        <span class="tip__text">Plan a trip</span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- Абсолютные символы и иконки -->
+              
+            <a href="#!" class="header-semore">
+                SEE MORE
+            </a>
+    </header>
+    
+    <script src="./libs/dist/min/tiny-slider.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
